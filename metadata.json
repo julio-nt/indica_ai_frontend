@@ -1,0 +1,7 @@
+{
+  "name": "Indicai",
+  "description": "Aplicação web e mobile responsiva com integração Google Maps",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
