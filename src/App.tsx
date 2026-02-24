@@ -94,7 +94,7 @@ export default function App() {
   // Note: Since we can't easily set env vars in this preview without user action,
   // we will pass undefined to trigger the placeholder UI, or the user can edit .env
   const placesApiKey = import.meta.env.VITE_GOOGLE_MAPS_PLACES_API_KEY;
-  const mapEmbedApiKey = import.meta.env.VITE_GOOGLE_MAPS_EMBED_API_KE || "";
+  const mapEmbedApiKey = import.meta.env.VITE_GOOGLE_MAPS_EMBED_API_KEY || "";
 
   const toggleFavorite = (e: React.MouseEvent, id: string | number) => {
     e.stopPropagation();
